@@ -18,16 +18,18 @@
     },
     data() {
       return {
-        interval: 40,
+        interval: 5,
         currentStyle: '',
         enableHtml: false,
         fullStyle: [
           `/*
 * Inspired by http://strml.net/
-* 大家好，我是方方
-* 二月了，好多公司都在招聘
-* 你是不是也在准备简历呀。
-* 说做就做，我也来写一份简历！
+* 大家好，我是曾晨，你可以叫我Allen
+* 最近，好多公司都在招聘，你是不是也在准备简历呀。
+* 接下来我也要写一份我的简历。
+* 不过这份简历是动态的噢！
+* 说做就做！
+* 开始！
 */
 
 /* 首先给所有元素加上过渡效果 */
@@ -40,6 +42,7 @@ html {
   background: rgb(0,43,54);
 }
 /* 文字离边框太近了 */
+/* 让我们改一改 */
 .styleEditor {
   padding: .5em;
   border: 1px solid;
@@ -49,10 +52,11 @@ html {
   height: 90vh;
 }
 /* 太高了 */
+/* 我们来把他调低一些 */
 .styleEditor {
   height: 45vh;
 }
-/* 代码高亮 */
+/* 再让代码变得亮一点 */
 .token.selector{
   color: rgb(133,153,0);
 }
@@ -66,7 +70,7 @@ html {
   color: rgb(42,161,152);
 }
 
-/* 加点 3D 效果呗 */
+/* 让我们加点 3D 效果 */
 html{
   perspective: 1000px;
 }
@@ -128,36 +132,38 @@ html{
 }
 `],
         currentMarkdown: '',
-        fullMarkdown: `方应杭
+        fullMarkdown: `曾晨
 ----
 
-资深前端工程师，资深前端讲师
-现在在 [饥人谷](http://jirengu.com) 教前端课程。
+前端开发工程师，Java开发工程师，喜欢开发网站、微信公众号、小程序，开源爱好者，对网络安全及渗透测试有一定了解，欢迎到这是我的个人博客[AllenChen's Blog](https://allenchenblog.cn/)了解更多。
 
-技能
+主要涉及技能：
 ----
 
-* 前端开发
-* Rails 开发
-* Node.js 开发
-* 前端授课
+* web前端开发
+* Java开发
+* python开发
+* Node.js
+* 网站开发
+* 网络安全
 
 工作经历
 ----
 
-1. [饥人谷](http://jirengu.com)
-2. 腾讯即时通讯平台部
-3. 阿里巴巴B2B部门
-4. 彩程知人项目组
+1. 中兴通讯长沙研发生产基地
+
 
 链接
 ----
 
-* [GitHub](https://github.com/frankfang)
-* [我的文章](https://www.zhihu.com/people/zhihusucks/pins/posts)
+* [GitHub](https://github.com/Allen-zc)
+* [我的文章](../)
+* [博客主页](allenchenblog.cn)
 
+----
 > 如果你喜欢这个效果，
-Fork [我的项目](https://github.com/jirengu-inc/animating-resume)，打造你自己的简历！
+Fork [我的项目](https://github.com/Allen-zc/Dynamic_resume)，打造你自己的简历！
+* 如果想找到更多有趣的项目，可以去我的[Github主页](https://github.com/Allen-zc/)瞧瞧~
 
 `
       }

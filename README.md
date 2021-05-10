@@ -2,12 +2,12 @@
 
 > This is my resume
 
-[预览](https://jirengu-inc.github.io/animating-resume/public/)
+[预览](https://allenchenblog.cn/Dynamic_resume/public/)
 
 ## 使用方法
 
 ``` bash
-git clone git@github.com:jirengu-inc/animating-resume.git
+git clone git@github.com:Allen-zc/Dynamic_resume.git
 cd animating-resume
 npm install
 npm run dev
@@ -16,7 +16,7 @@ npm run dev
 ## 部署方法
 
 
-1. 编辑 config/index.js，修改第 10 行的 assetsPublicPath，值为 `项目名/dist`。如果你没有修改项目名 animating-resume，则可跳过此步骤。
+1. 编辑 config/index.js，修改第 10 行的 assetsPublicPath，值为 ./。然后再修改dist目录下的index.html文件里的url=https://allen-zc.github.io/Dynamic_resume/public/为你的地址。
 
 2. 编译、上传
     ``` bash
